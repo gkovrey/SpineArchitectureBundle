@@ -1,0 +1,38 @@
+{
+    "name": "spine/spine-architecture-bundle",
+    "type": "symfony-bundle",
+    "description": "This Bundle provides parts of strict architectural backbone for Symfony2 applications",
+    "keywords": ["manager", "architecture", "backbone"],
+    "homepage": "https://github.com/gkovrey/SpineArchitectureBundle",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "George Kovrey",
+            "email": "g,kovrey@gmail.com"
+        }
+    ],
+    "support": {
+        "issues": "https://github.com/gkovrey/SpineArchitectureBundle/issues"
+    },
+    "require": {
+        "php": ">=7.0",
+        "symfony/framework-bundle": "~2.3|~3.0",
+        "symfony/dependency-injection": "~2.3|~3.0",
+        "symfony/routing": "~2.3|~3.0",
+        "doctrine/doctrine-bundle": "~1.4"
+    },
+    "suggest": {
+    },
+    "require-dev": {
+    },
+    "extra": {
+        "branch-alias": {
+            "dev-master": "0.1.x-dev"
+        }
+    },
+    "autoload": {
+        "psr-0": { "Spine\\ArchitectureBundle": "" }
+    },
+    "target-dir": "Spine/ArchitectureBundle",
+    "prefer-stable": true
+}
